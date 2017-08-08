@@ -14,5 +14,3 @@ RUN apt-get install --no-install-recommends -y \
 RUN apt-get install --no-install-recommends -y \
 	postgresql postgresql-contrib postgis postgresql-*-postgis-* 
 	
-#clear apt cache
-RUN rm -rf /var/lib/apt/lists/*
